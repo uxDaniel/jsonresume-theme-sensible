@@ -1,26 +1,26 @@
 {
-  "name": "jsonresume-theme-compact",
-  "version": "1.0.4",
-  "description": "A JSON Resume theme for a compact look",
+  "name": "jsonresume-theme-sensible",
+  "version": "1.0.0",
+  "description": "A JSON Resume theme for a sensible look. Based on compact.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Alan Ward",
+  "author": "Daniel Garcia",
   "license": "MIT",
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4",
-    "moment": "^2.8.2"
+    "handlebars": "^4.7.8",
+    "moment": "^2.30.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arw180/jsonresume-theme-compact.git"
+    "url": "https://github.com/uxDaniel/jsonresume-theme-sensible.git"
   },
   "keywords": [
     "json", "jsonresume", "theme", "compact"
   ],
   "bugs": {
-    "url": "https://github.com/arw180/jsonresume-theme-compact/issues"
+    "url": "https://github.com/uxDaniel/jsonresume-theme-sensible/issues"
   },
-  "homepage": "https://github.com/arw180/jsonresume-theme-compact"
+  "homepage": "https://github.com/uxDaniel/jsonresume-theme-sensible"
 }
