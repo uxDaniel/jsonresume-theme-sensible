@@ -34,16 +34,7 @@ hr {
     font-weight: bold;
 }
 
-.skills-ul {
-    list-style-type: disc;
-    list-style-position: inside;
-    padding-left: 0;
-    margin-left: 0;
-}
-
-.skills-ul li {
-    float: left;
-    margin-right: 8px;
+.skills {
 }
 
 .company, .school {
@@ -51,7 +42,7 @@ hr {
 }
 
 .company-position {
-
+    font-size: 13px;
 }
 
 .company-summary {
@@ -73,4 +64,11 @@ hr {
 }
 
 
+/* Bootstrap overrides */
 
+.col-xs-2:first-child {
+    width: 14%;
+}
+.col-xs-2:first-child + .col-xs-10 {
+    width: 86%;
+}
